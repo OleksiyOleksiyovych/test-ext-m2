@@ -1,0 +1,20 @@
+{
+    "name": "OleksiyOleksiyovych/test-ext-m2",
+    "description": "OleksiyOleksiyovych/test-ext-m2",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IWD\\All\\": ""
+        }
+    }
+}
